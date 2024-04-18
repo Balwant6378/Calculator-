@@ -18,17 +18,18 @@
   }
   .container{
     border: 2px solid black;
-    height: 80vh;
-    width: 50vh;
+    height: 530px;
+    width: 300px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgba(4, 9, 44, 0.874);
     border-radius: 10px;
   }
+
   .screen input {
-    height: 50vmin;
-    width: 60vmin;
+    height: 265px;
+    width: 300px;
     background-color: rgba(4, 9, 44, 0.874);
     border-radius: 10px;
     border: none;
@@ -40,19 +41,21 @@
     color: white;
   }
   .keyboard{
-    height: 48vmin;
-    width: 60vmin;
+    height: 260px;
+    width: 295px;
     /* border: 2px solid black; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
+}
+  .box,.divide,.all-clear,.clear,.mul,.add,.subAdd,.sub,.modules,.dot,.result{
+     height: 40px;
+     width: 65px;
+     margin-left: 5px;
+     border-radius: 50%;
   }
   .box{
-    height: 9vmin;
-    width: 14vmin;
-    border-radius: 50%;
     border: none;
     background-color: rgb(48, 48, 48);
     font-size: 27px;
@@ -64,9 +67,6 @@
     background-color: rgba(125, 121, 121, 0.951);
   }
   .all-clear{
-    height: 9vmin;
-    width: 14vmin;
-    border-radius: 50%;
     border: none;
     background-color: rgba(8, 84, 98, 0.731);
     font-size: 23px;
@@ -77,9 +77,6 @@
     background-color: rgba(125, 121, 121, 0.951);
   }
   .clear{
-    height: 9vmin;
-    width: 14vmin;
-    border-radius: 50%;
     border: none;
     background-color: rgba(8, 84, 98, 0.731);
     font-size: 23px;
@@ -89,10 +86,7 @@
   .clear:active{
     background-color: rgba(125, 121, 121, 0.951);
   }
-.dot{
-    height: 9vmin;
-    width: 14vmin;
-    border-radius: 50%;
+  .dot{
     border: none;
     background-color: rgb(48, 48, 48);
     font-size: 27px;
@@ -103,9 +97,6 @@
     background-color: rgba(125, 121, 121, 0.951);
 }
 .divide{
-    height: 9vmin;
-    width: 14vmin;
-    border-radius: 50%;
     border: none;
     background-color:rgba(8, 84, 98, 0.731);
     font-size: 23px;
@@ -116,10 +107,7 @@
     background-color: rgba(125, 121, 121, 0.951);
 }
 .mul{
-    height: 9vmin;
-    width: 14vmin;
-    border-radius: 50%;
-    border: none;
+  border: none;
     background-color: rgba(8, 84, 98, 0.731);
     font-size: 30px;
     font-weight: 500;
@@ -129,10 +117,7 @@
     background-color: rgba(125, 121, 121, 0.951);
 }
 .add{
-    height: 9vmin;
-    width: 14vmin;
-    border-radius: 50%;
-    border: none;
+  border: none;
     background-color: rgba(8, 84, 98, 0.731);
     font-size: 27px;
     font-weight: 500;
@@ -142,10 +127,7 @@
     background-color: rgba(125, 121, 121, 0.951);
 }
 .subAdd{
-    height: 9vmin;
-    width: 14vmin;
-    border-radius: 50%;
-    border: none;
+  border: none;
     background-color: rgba(8, 84, 98, 0.731);
     font-size: 23px;
     font-weight: 500;
@@ -155,9 +137,6 @@
     background-color: rgba(125, 121, 121, 0.951);
 }
 .modules{
-    height: 9vmin;
-    width: 14vmin;
-    border-radius: 50%;
     border: none;
     background-color:rgb(48, 48, 48);
     font-size: 27px;
@@ -169,22 +148,16 @@
     background-color: rgba(125, 121, 121, 0.951);
 }
 .result{
-    height: 9vmin;
-    width: 14vmin;
-    border-radius: 50%;
-    border: none;
-    background-color: rgb(39, 176, 255);
-    font-size: 27px;
-    font-weight: 550;
-    color: white;
+  border: none;
+  background-color: rgb(39, 176, 255);
+  font-size: 27px;
+  font-weight: 550;
+  color: white;
 }
 .result:active{
-    background-color: rgba(125, 121, 121, 0.951);
+  background-color: rgba(125, 121, 121, 0.951);
 }
 .sub{
-    height: 9vmin;
-    width: 14vmin;
-    border-radius: 50%;
     border: none;
     background-color: rgba(8, 84, 98, 0.731);
     font-size: 30px;
@@ -194,3 +167,4 @@
 .sub:active{
     background-color: rgba(125, 121, 121, 0.951);
 }
+
