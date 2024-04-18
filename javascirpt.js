@@ -8,7 +8,7 @@ let dot = document.querySelector(".dot");
 let input = document.querySelector("#input");
 let result = document.querySelector(".result");
 let allClear =document.querySelector(".all-clear");
-let clear = document.querySelector(".clear");
+let clear = document.querySelector("i");
 let subAdd = document.querySelector(".subAdd");
 
 let string = "";
