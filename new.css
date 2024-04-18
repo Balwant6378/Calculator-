@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  body{
+      background-color: #C6A969;
+  }
+  .outer{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top:2rem ;
+  }
+  .container{
+    border: 2px solid black;
+    height: 80vh;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(4, 9, 44, 0.874);
+    border-radius: 10px;
+  }
+  .screen input {
+    height: 50vmin;
+    width: 60vmin;
+    background-color: rgba(4, 9, 44, 0.874);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: right;
+    text-align: end;
+    color: white;
+  }
+  .keyboard{
+    height: 48vmin;
+    width: 60vmin;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  .box{
+    height: 9vmin;
+    width: 14vmin;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(48, 48, 48);
+    font-size: 27px;
+    font-weight: 550;
+    color: white;
+    cursor: pointer;
+  }
+  .box:active{
+    background-color: rgba(125, 121, 121, 0.951);
+  }
+  .all-clear{
+    height: 9vmin;
+    width: 14vmin;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(8, 84, 98, 0.731);
+    font-size: 23px;
+    font-weight: 500;
+    color: aqua;
+  }
+  .all-clear:active{
+    background-color: rgba(125, 121, 121, 0.951);
+  }
+  .clear{
+    height: 9vmin;
+    width: 14vmin;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(8, 84, 98, 0.731);
+    font-size: 23px;
+    font-weight: 500;
+    color: aqua;
+  }
+  .clear:active{
+    background-color: rgba(125, 121, 121, 0.951);
+  }
+.dot{
+    height: 9vmin;
+    width: 14vmin;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(48, 48, 48);
+    font-size: 27px;
+    font-weight: 550;
+    color: white;
+}
+.dot:active{
+    background-color: rgba(125, 121, 121, 0.951);
+}
+.divide{
+    height: 9vmin;
+    width: 14vmin;
+    border-radius: 50%;
+    border: none;
+    background-color:rgba(8, 84, 98, 0.731);
+    font-size: 23px;
+    font-weight: 500;
+    color: aqua;
+}
+.divide:active{
+    background-color: rgba(125, 121, 121, 0.951);
+}
+.mul{
+    height: 9vmin;
+    width: 14vmin;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(8, 84, 98, 0.731);
+    font-size: 30px;
+    font-weight: 500;
+    color: aqua;
+}
+.mul:active{
+    background-color: rgba(125, 121, 121, 0.951);
+}
+.add{
+    height: 9vmin;
+    width: 14vmin;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(8, 84, 98, 0.731);
+    font-size: 27px;
+    font-weight: 500;
+    color: aqua;
+}
+.add:active{
+    background-color: rgba(125, 121, 121, 0.951);
+}
+.subAdd{
+    height: 9vmin;
+    width: 14vmin;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(8, 84, 98, 0.731);
+    font-size: 23px;
+    font-weight: 500;
+    color: aqua;
+}
+.subAdd:active{
+    background-color: rgba(125, 121, 121, 0.951);
+}
+.modules{
+    height: 9vmin;
+    width: 14vmin;
+    border-radius: 50%;
+    border: none;
+    background-color:rgb(48, 48, 48);
+    font-size: 27px;
+    font-weight: 550;
+    color: white;
+   
+}
+.modules:active{
+    background-color: rgba(125, 121, 121, 0.951);
+}
+.result{
+    height: 9vmin;
+    width: 14vmin;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(39, 176, 255);
+    font-size: 27px;
+    font-weight: 550;
+    color: white;
+}
+.result:active{
+    background-color: rgba(125, 121, 121, 0.951);
+}
+.sub{
+    height: 9vmin;
+    width: 14vmin;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(8, 84, 98, 0.731);
+    font-size: 30px;
+    font-weight: 550;
+    color: aqua;
+}
+.sub:active{
+    background-color: rgba(125, 121, 121, 0.951);
+}
