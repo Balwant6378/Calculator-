@@ -27,7 +27,7 @@
     border-radius: 10px;
   }
 
-  .screen input {
+  .screen,#input {
     height: 100px;
     width: 300px;
     background-color: rgba(4, 9, 44, 0.874);
