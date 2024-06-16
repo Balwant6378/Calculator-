@@ -34,6 +34,7 @@
     border-radius: 10px;
     border: none;
     outline: none;
+    resize: none;
     font-size: 40px;
     font-weight: 600;
     text-align: right;
